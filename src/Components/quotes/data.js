@@ -13,7 +13,7 @@ export let dataTwitter = [
     },
     {
         id:"2",
-        img:GirlPict,
+        avatart:GirlPict,
         nickName:"Jada Griffin",
         status:"Nerdreactor",
         info:"The next big thing in the world of streaming and survival games.",
@@ -21,7 +21,7 @@ export let dataTwitter = [
     },
     {
         id:"3",
-        img:lastGuy,
+        avatart:lastGuy,
         nickName:"Aaron Williams",
         status:"Uproxx",
         info:"Snoop Dogg Playing The Wildly Entertaining ‘SOS’ Is Ridiculous.",
