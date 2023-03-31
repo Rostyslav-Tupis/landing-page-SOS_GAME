@@ -1,0 +1,127 @@
+.container{
+    background-color: rgb(8 10 11);
+}
+.extra_info_container{
+    max-width: 645px;
+    width: 100%;
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.scull_img{
+    width: 100%;
+    height: auto;
+}
+form{
+    position: relative;
+}
+.email_input{
+    height: 60px;
+    max-width: 360px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    color: #FFB548;
+    margin-right: 18px;
+    padding: 0 0 0 20px;
+}
+.email_input:focus{
+    outline: none;
+    border-bottom: 3px solid #FFB548;
+}
+
+.input_placeholder{
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    border-radius: 4px;
+    position: absolute;
+    font-size: 12px;
+    left: 20px;
+    top: 5px;
+}
+
+.subscribe_btn{
+    color: #1A1917;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: capitalize;
+
+    height: 60px;
+    padding: 18px 70px;
+    background-color: rgb(255 171 14);
+    border-radius: 4px;
+    border: none;
+    transition: all 0.3s;
+}
+.subscribe_btn_disabled{
+    color: black;
+    height: 60px;
+    padding: 18px 70px;
+    border-radius: 4px;
+    border: none;
+
+}
+.subscribe_btn:hover{
+    background-color: #fabc48;
+}
+
+.errorMessage{
+    color: grey;
+    font-style: italic;
+    font-size: 14px;
+    position: absolute;
+    bottom: -20px;
+}
+
+@media (max-width:1058px){
+    .subscribe_btn{
+        padding: 18px 20px;
+    }
+    .subscribe_btn_disabled{
+        padding: 18px 20px;
+    }
+}
+@media (max-width:890px){
+    .content{
+        padding: 0 8px;
+    }
+    .email_input{
+        max-width: 240px;
+    }
+}
+
+@media (max-width:738px){
+    .content{
+        padding: 20px 0 0 20px;
+    }
+}
+@media  (max-width: 694px){
+    .extra_info_container{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .subscribe_btn{
+        margin-top: 12px;
+    }
+    .subscribe_btn_disabled{
+        margin-top: 12px;
+    }
+    .input_placeholder{
+        top: 20px;
+    }
+}
+
+@media only screen and (max-width: 497px){
+    .scull_img{
+        display: none;
+    }
+}

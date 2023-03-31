@@ -1,0 +1,138 @@
+.container{
+    background-color: rgb(8 10 11);
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    align-items: center;
+    padding: 80px 8px 80px 8px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title_position{
+    margin-bottom: 50px;
+}
+.info{
+    max-width: 435px;
+    width: 100%;
+}
+.button_position{
+    margin-top: 70px;
+}
+
+.card:nth-child(2){
+    margin-left: -100px;
+}
+.card:last-child{
+    margin-bottom:0 ;
+}
+.card{
+    background: rgb(27 28 29);
+    max-width: 450px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 12px 12px 20px 12px;
+    margin-bottom: 30px;
+}
+.top_card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 26px;
+}
+
+.picture_nickname{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.profileImg{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 5;
+}
+
+.profile_pic{
+    position: relative;
+}
+.profile_pic::after{
+    content: '';
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    border-radius: 100%;
+    left: 8px;
+    top: 2px;
+    background-color: #FFB548;
+}
+
+.nickName{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #FFB548;
+}
+
+.status{
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    opacity: 0.5;
+}
+.post_info{
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-bottom: 9px !important; 
+}
+
+.date{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+@media (max-width:1023px){
+    .card:nth-child(2){
+        margin-left: 0;
+    }
+    .content{
+        justify-content: space-around;
+        gap: 0;
+    }
+}
+
+@media (max-width:890px){
+    .content{
+        flex-direction: column;
+    }
+    .all_cards{
+        margin-top: 35px;
+    }
+}
+
+@media  (max-width: 540px){
+    .card{
+        max-width: 370px;
+    }
+}
+
+@media only screen and (max-width: 497px){
+    .title_position{
+        margin-bottom: 25px;
+    }
+    .button_position{
+        margin-top: 50px;
+    }
+}

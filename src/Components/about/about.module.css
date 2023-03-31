@@ -1,0 +1,131 @@
+.cotainer{
+    background-image: url('../main section/images//bg\ image\ 2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 135px 8px;
+    overflow: hidden;
+    height: 100%;
+}
+.content{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 45px;
+}
+
+.text_container{
+    max-width: 410px;
+    position: relative;
+}
+.text{
+    align-self: self-start;
+}
+    
+.fixing{
+    font-size: 18px;
+    color: #fff;
+    min-width: 360px;
+    margin-top: 30px !important;
+    margin-left: 145px !important;
+    line-height: 22px;
+}
+.add_info{
+    font-size: 18px;
+    color: #fff;
+    min-width: 360px;
+    margin-top: 70px !important;
+    margin-left: 145px !important;
+    line-height: 22px;
+}
+
+.divide_line{
+    width: 64%;
+    max-width: 666px;
+    display: inline-block;
+    position: absolute;
+    height: 3px;
+    margin-bottom: 60px;
+    background-color: #fff;
+    z-index: 5;
+}
+
+
+.slider_img{
+    border-radius: 6px;
+    width: 100%;
+    height: auto;
+}
+
+/*============================== SWIPER SETTING ==============================*/
+.slider_container{
+    max-width: 920px;
+}
+
+/*============ MEDIA QUERIES ============*/
+
+@media (max-width:1218px){
+    .text{
+        max-width: 550px;
+        align-self: self-start;
+    }
+    .content{
+        flex-direction: column; 
+    }
+    .slider_container{
+        margin-left: 405px;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 694px){
+    .add_info{
+        max-width: 400px;
+        margin-top: 10px !important;
+        margin-left: 20px !important;
+    }
+    .fixing{
+        margin-top: 10px !important;
+        margin-left: 20px !important;
+        max-width: 400px;
+    }
+    .slider_container{
+        margin-left: 125px;
+        max-width: 600px;
+    }
+    .uk_title{
+        font-size: 42px;
+    }
+}
+
+@media only screen and (max-width: 497px){
+    .slider_container{
+        margin-left: 194px;
+        max-width: 480px;
+    }
+    .cotainer{
+        padding: 80px 8px;
+    }
+    li{
+        margin-right: 20px !important;
+    }
+    .container{
+        background-position: inherit;
+    }
+}
+
+@media only screen and (max-width: 408px){
+    .add_info{
+        font-size: 14px;
+        margin-left: 0px !important;
+        min-width: 0;
+    }
+    .fixing{
+        font-size: 14px;
+        margin-top: 10px !important;
+        margin-left: 0px !important;
+        min-width: 0;
+    }
+
+}

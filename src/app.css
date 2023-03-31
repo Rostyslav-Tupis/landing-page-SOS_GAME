@@ -1,0 +1,40 @@
+.app-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/*============================== SWIPER SETTING ==============================*/
+.swiper-3d.swiper-slide-shadow{
+    background: none !important;
+}
+
+.swiper-pagination{
+    bottom: 50px !important;
+    left: 100px !important;
+    width: 30% !important;
+}
+
+.swiper-pagination-bullet {
+    border: white solid 1px ;
+    background-color: transparent !important;
+    width: 14px !important;
+    height: 14px !important;
+    margin-right: 50px !important;
+}
+.swiper-pagination-bullet:last-child{
+    margin: 0 !important; 
+}
+.swiper-pagination-bullet-active{
+    background-color: white !important;
+}
+
+.swiper-button-prev{
+    display: none !important;
+}
+.swiper-button-next{
+    left: 560px !important;
+}
+.swiper-button-next:after{
+    color: transparent;
+    background-image:url('./Components/main section/images/switch.png');
+    background-repeat: no-repeat;
+}

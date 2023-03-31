@@ -1,0 +1,94 @@
+.container{
+    background-image: url('../main section/images/sestemBG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 90px 8px;
+    margin: 0 auto;
+    max-width: 1145px;
+    width: 100%;
+}
+.positioning{
+    display: flex;
+    gap: 30px;
+}
+.uptitle_title{
+    text-align: center;
+    margin-bottom: 120px;
+}
+.table{
+    border: 1px solid #979797;
+    max-width: 575px;
+    width: 100%;
+}
+.box{
+    display: flex;
+    border-bottom:1px solid #979797 ;
+}
+.spicialies_os{
+    border-right: 1px solid #979797;
+    padding: 15px 19px;
+    width: 50%;
+}
+.spicialies_memory{
+    width: 50%;
+    padding: 15px 19px;
+    border-right: 1px solid #979797;
+}
+
+.spicialies{
+    padding: 15px 19px;
+    width: 50%;
+}
+.spicialies_graphics{
+    padding: 25px 10px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.system_item_name{
+    font-family: 'Bebas Neue';
+    color: #FFB548;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    margin-bottom: 6px !important;
+}
+.system_item{
+    font-size: 17px;
+    line-height: 22px;
+    color: #fff;
+}
+
+.transperent{
+    width: 300px;
+    height: 300px;
+}
+
+@media (max-width:890px){
+    .table{
+        background-color: rgb(0 0 0 / 70%);
+
+    }
+}
+@media (max-width: 694px){
+    .content{
+        padding: 60px 70px;
+    }
+    .uptitle_title{
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 497px){
+    .content{
+        padding: 60px 15px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .system_item{
+        font-size: 14px;
+    }
+}

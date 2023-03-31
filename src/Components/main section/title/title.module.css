@@ -1,0 +1,31 @@
+.title-wrapper{
+    margin-top: 237px;
+    margin-bottom: 240px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.divider{
+    background-color: #1A1917;
+    height: 23px;
+    width: 1px;
+    display: inline-block;
+    margin: 0 10px;
+    opacity: 0.5;
+}
+
+@media only screen and (max-width: 408px){
+    .title-wrapper{
+        margin-top: 150px;
+        margin-bottom: 150px; 
+    }
+}

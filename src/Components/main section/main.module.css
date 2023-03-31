@@ -1,0 +1,155 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    background-color: #eb9a21 !important;
+}
+dl, ol, ul {
+    margin-bottom: 0 !important;
+}
+
+.container{
+    background-image: url('./images/bg\ image\ 1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 21px 0 50px 0;
+    z-index: 10;
+}
+.content{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navigation{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 55px;
+    height: 55px;
+}
+.lang-gameServices{
+    display: flex;
+    align-items: center;
+}
+.lang{
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    position: relative;
+}
+.lang-selector-btn{
+    background-color: transparent !important;
+    border: none !important;
+    font-size: 14px !important;
+}
+.ul-lang{
+    min-width: 54px !important;
+    background-color: rgb(0, 0, 0, 0.7) !important;
+}
+.li-item{
+    border-radius: 3px;
+}
+
+.li-lang-btn{
+    color: #fff !important;
+    padding: 5px 20px 5px 5px !important;
+    font-size: 12px
+}
+.li-lang-btn:hover{
+    background-color: transparent !important;
+    color: #FFB548 !important;
+}
+
+.divider{
+    background-color: grey;
+    height: 30px;
+    width: 1px;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+.platforms{
+    margin-left:24px;
+    display: flex;
+
+}
+.img-container:hover img{
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out;
+}
+
+.current-lang{
+    color: #fff;
+    text-transform:uppercase ;
+}
+
+.platformlogo{
+    width: 30px;
+    height: 28px;
+    transition: all 2s;
+}
+
+.platformLink{
+    margin-right: 16px;
+}
+
+.xboxlogo:hover{
+    transform: scale(1.5);
+}
+
+.theStory{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.next-page{
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 8px !important;
+    text-decoration: none;
+}
+.positioning{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+
+.mobile_btn{
+    display: none;
+}
+
+
+/*============ MEDIA QUERIES ============*/
+@media only screen and (max-width: 1096px){
+
+    .navigation{
+        padding: 0 10px 0 10px;
+    }
+}
+
+@media only screen and (max-width: 908px){
+    .mobile_btn{
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 30px;
+        cursor: pointer;
+        z-index: 10;
+    }
+    .btn_fixed{
+        position: fixed;
+    }
+    ol, ul {
+        padding-left: 0 !important;
+    }
+    .platforms{
+        display: none;
+    }
+}  
